@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zshy.core.encrypt.config.WebConfiguration
+
+

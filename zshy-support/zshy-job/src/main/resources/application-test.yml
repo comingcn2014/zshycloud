@@ -1,0 +1,25 @@
+server:
+  port: 30006
+spring:
+  application:
+    name: @artifactId@
+  #数据源配置
+  datasource:
+    url: ${zshy.datasource.url}
+    username: ${zshy.datasource.username}
+    password: ${zshy.datasource.password}
+logging:
+  config: classpath:logback.xml
+zshy:
+  job:
+    admin:
+      addresses: http://localhost:30011/xxl-job-admin
+    accessToken: ''
+    executor:
+      appname: ${spring.application.name}
+      address: 127.0.0.1:30007
+      ip: 127.0.0.1
+      port: 30007
+      logPath: logs/app/zshy-job/jobhandler/
+      logRetentionDays: 30
+

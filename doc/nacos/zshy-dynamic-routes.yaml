@@ -1,0 +1,45 @@
+routes:
+  # zshy-uaa
+  - id: zshy-uaa
+    predicates:
+      - name: Path
+        args:
+          _genkey_0: /zshy-uaa/**
+    filters: []
+    uri: lb://zshy-uaa
+    order: 0
+  # zshy-system
+  - id: zshy-system
+    predicates:
+      - name: Path
+        args:
+          _genkey_0: /zshy-system/**
+    filters:
+      - name: RequestRateLimiter
+        args:
+          # 限流策略
+          key-resolver: '#{@remoteAddrKeyResolver}'
+          # 令牌桶每秒填充率
+          redis-rate-limiter.burstCapacity: 20
+          # 令牌桶容量
+          redis-rate-limiter.replenishRate: 20
+    uri: lb://zshy-system
+    order: 0
+  # zshy-component
+  - id: zshy-component
+    predicates:
+      - name: Path
+        args:
+          _genkey_0: /zshy-component/**
+    filters: []
+    uri: lb://zshy-component
+    order: 0
+  # zshy-code
+  - id: zshy-code
+    predicates:
+      - name: Path
+        args:
+          _genkey_0: /zshy-code/**
+    filters: []
+    uri: lb://zshy-code
+    order: 0

@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zshy.core.web.config.ExceptionConfiguration,\
+  com.zshy.core.web.config.DateConverterConfiguration,\
+  com.zshy.core.web.config.SwaggerConfiguration,\
+  com.zshy.core.web.config.WebConfiguration,\
+  com.zshy.core.web.config.UndertowHttp2Configuration
+
+

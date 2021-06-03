@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zshy.core.gray.config.GrayConfig,\
+  com.zshy.core.gray.context.VersionContextHolderFilter
+
+

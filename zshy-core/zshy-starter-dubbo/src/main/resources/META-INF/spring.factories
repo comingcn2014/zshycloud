@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zshy.core.dubbo.config.DubboFeignConfiguration
+
