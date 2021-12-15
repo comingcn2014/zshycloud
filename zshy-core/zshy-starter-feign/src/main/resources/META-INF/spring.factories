@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.zshy.core.feign.config.MateFeignAutoConfiguration
+  com.zshy.core.feign.config.ZshyFeignAutoConfiguration
 
 

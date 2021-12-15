@@ -1,7 +1,7 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
   com.zshy.core.security.config.IgnoreUrlPropsConfiguration,\
   com.zshy.core.security.service.PermissionService,\
-  com.zshy.core.security.config.MateSecurityConfig
+  com.zshy.core.security.config.ZshySecurityConfig
 
 
 
