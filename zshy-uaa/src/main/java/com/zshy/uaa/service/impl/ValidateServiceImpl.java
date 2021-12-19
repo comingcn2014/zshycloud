@@ -27,6 +27,7 @@ public class ValidateServiceImpl implements ValidateService {
 
     private final RedisService redisService;
 
+
     @Override
     public Result<?> getCode() {
         Map<String, String> data = new HashMap<>(2);

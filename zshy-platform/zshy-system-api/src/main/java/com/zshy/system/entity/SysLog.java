@@ -32,7 +32,7 @@ import java.time.LocalDateTime;
  * @since 2020-07-15
  */
 @Data
-@TableName("ZSHY_sys_log")
+@TableName("tb_sys_log")
 @EqualsAndHashCode(callSuper = true)
 @ApiModel(value = "SysLog对象", description = "系统日志表")
 public class SysLog extends BaseEntity {

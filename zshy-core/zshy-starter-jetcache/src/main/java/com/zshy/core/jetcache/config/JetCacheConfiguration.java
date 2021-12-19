@@ -33,7 +33,7 @@ import java.util.Map;
 public class JetCacheConfiguration {
 	@Bean
 	public RedisClient redisClient() {
-		RedisClient client = RedisClient.create("redis://127.0.0.1");
+		RedisClient client = RedisClient.create("redis://192.168.10.14");
 		client.setOptions(ClientOptions.builder().
 				disconnectedBehavior(ClientOptions.DisconnectedBehavior.REJECT_COMMANDS)
 				.build());

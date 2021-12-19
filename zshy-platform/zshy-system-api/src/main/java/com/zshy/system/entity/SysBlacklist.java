@@ -30,7 +30,7 @@ import com.zshy.core.database.entity.BaseEntity;
  * @since 2020-08-26
  */
 @Data
-@TableName("ZSHY_sys_blacklist")
+@TableName("tb_sys_blacklist")
 @EqualsAndHashCode(callSuper = true)
 @ApiModel(value = "SysBlacklist对象", description = "系统黑名单表")
 public class SysBlacklist extends BaseEntity {

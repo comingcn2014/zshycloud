@@ -3,10 +3,10 @@ spring:
     druid:
       enable: true
       # 从这里开始(druid)
-      username: ${mate.datasource.username}
-      password: ${mate.datasource.password}
+      username: ${zshy.datasource.username}
+      password: ${zshy.datasource.password}
       driver-class-name: ${spring.datasource.driver-class-name}
-      url: ${mate.datasource.url}
+      url: ${zshy.datasource.url}
       db-type: mysql
       initialSize: 10
       minIdle: 10

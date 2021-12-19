@@ -22,7 +22,7 @@ import java.time.LocalDateTime;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-@TableName("ZSHY_sys_user")
+@TableName("tb_sys_user")
 @ApiModel(value = "SysUser对象", description = "系统用户表")
 public class SysUser extends BaseEntity {
 

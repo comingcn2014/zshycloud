@@ -12,7 +12,7 @@
     </resultMap>
 
     <select id="tree" resultMap="mapperNodeResultMap">
-        select id, parent_id, name as "title", id as "value", id as "key" from zshy_sys_depart where is_deleted = 0
+        select id, parent_id, name as "title", id as "value", id as "key" from tb_sys_depart where is_deleted = 0
         ORDER BY sort
     </select>
 

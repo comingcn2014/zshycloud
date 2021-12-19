@@ -1,5 +1,5 @@
 #Swagger属性配置
-mate:
+zshy:
   swagger:
     enable: false
     title: ZshyCloud文档管理中心

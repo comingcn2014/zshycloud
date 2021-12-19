@@ -39,9 +39,9 @@ spring:
 
   ### xxl-job, datasource
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/xxl_job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
-    username: ${mate.datasource.username}
-    password: ${mate.datasource.password}
+    url: jdbc:mysql://192.168.10.14:3306/xxl_job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: ${zshy.datasource.username}
+    password: ${zshy.datasource.password}
     ### datasource-pool
     hikari:
       auto-commit: true

@@ -19,7 +19,7 @@ import com.zshy.core.database.entity.BaseEntity;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-@TableName("ZSHY_sys_menu")
+@TableName("tb_sys_menu")
 @ApiModel(value = "SysMenu对象", description = "菜单权限表")
 public class SysMenu extends BaseEntity {
 

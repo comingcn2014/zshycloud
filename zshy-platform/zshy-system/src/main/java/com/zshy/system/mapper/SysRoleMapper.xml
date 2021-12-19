@@ -7,6 +7,6 @@
         <result column="name" property="name"/>
     </resultMap>
     <select id="tree" resultMap="sysRoleVOResultMap">
-        select id, role_name as name  from zshy_sys_role where is_deleted = 0
+        select id, role_name as name  from tb_sys_role where is_deleted = 0
     </select>
 </mapper>

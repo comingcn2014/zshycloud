@@ -31,7 +31,7 @@ import io.swagger.annotations.ApiModelProperty;
  * @since 2020-08-09
  */
 @Data
-@TableName("ZSHY_sys_attachment")
+@TableName("tb_sys_attachment")
 @EqualsAndHashCode(callSuper = true)
 @ApiModel(value = "SysAttachment对象", description = "附件表")
 public class SysAttachment extends BaseEntity {

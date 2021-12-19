@@ -28,8 +28,8 @@ public class TenantProperties {
     /**
      * 需要排除的多租户的表
      */
-    private List<String> ignoreTables = Arrays.asList("ZSHY_sys_menu","ZSHY_sys_dict","ZSHY_sys_client",
-            "ZSHY_sys_tenant", "ZSHY_sys_role_permission","ZSHY_sys_config","ZSHY_sys_data_source","ZSHY_sys_attachment");
+    private List<String> ignoreTables = Arrays.asList("tb_sys_menu","tb_sys_dict","tb_sys_client",
+            "tb_sys_tenant", "tb_sys_role_permission","tb_sys_config","tb_sys_data_source","tb_sys_attachment");
 
     /**
      * 多租户字段名称

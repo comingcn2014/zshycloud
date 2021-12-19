@@ -30,7 +30,7 @@
     </sql>
 
     <select id="listItem" resultMap="routeVOResultMap">
-        select id, service_id as name from zshy_sys_route order by create_time
+        select id, service_id as name from tb_sys_route order by create_time
     </select>
 
 </mapper>

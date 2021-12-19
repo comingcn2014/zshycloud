@@ -11,7 +11,7 @@ spring:
 
 dubbo:
   scan:
-    base-packages: vip.zshy.system.feign
+    base-packages: com.zshy.system.feign
   protocols:
     dubbo:
       name: dubbo

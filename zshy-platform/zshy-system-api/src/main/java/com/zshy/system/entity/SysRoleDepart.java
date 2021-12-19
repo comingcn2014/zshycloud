@@ -30,7 +30,7 @@ import com.zshy.core.database.entity.BaseEntity;
  * @since 2021-04-05
  */
 @Data
-@TableName("ZSHY_sys_role_depart")
+@TableName("tb_sys_role_depart")
 @EqualsAndHashCode(callSuper = true)
 @ApiModel(value = "SysRoleDepart对象", description = "角色和部门关联表")
 public class SysRoleDepart extends BaseEntity {

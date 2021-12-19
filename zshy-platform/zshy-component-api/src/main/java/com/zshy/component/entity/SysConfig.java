@@ -30,7 +30,7 @@ import io.swagger.annotations.ApiModelProperty;
  * @since 2020-08-05
  */
 @Data
-@TableName("ZSHY_sys_config")
+@TableName("tb_sys_config")
 @EqualsAndHashCode(callSuper = true)
 @ApiModel(value = "SysConfig对象", description = "配置表")
 public class SysConfig extends BaseEntity {

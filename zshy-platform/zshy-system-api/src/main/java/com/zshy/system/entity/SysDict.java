@@ -30,7 +30,7 @@ import com.zshy.core.database.entity.BaseEntity;
  * @since 2020-07-11
  */
 @Data
-@TableName("ZSHY_sys_dict")
+@TableName("tb_sys_dict")
 @EqualsAndHashCode(callSuper = true)
 @ApiModel(value = "SysDict对象", description = "字典表")
 public class SysDict extends BaseEntity {

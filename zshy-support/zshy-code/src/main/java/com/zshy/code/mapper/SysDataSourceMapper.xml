@@ -8,6 +8,6 @@
     </resultMap>
 
     <select id="optionList" resultMap="mapperNodeResultMap">
-        select id, name from zshy_sys_data_source where is_deleted = 0
+        select id, name from tb_sys_data_source where is_deleted = 0
     </select>
 </mapper>

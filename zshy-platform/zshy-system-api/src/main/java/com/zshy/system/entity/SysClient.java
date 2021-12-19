@@ -30,7 +30,7 @@ import com.zshy.core.database.entity.BaseEntity;
  * @since 2020-07-14
  */
 @Data
-@TableName("ZSHY_sys_client")
+@TableName("tb_sys_client")
 @EqualsAndHashCode(callSuper = true)
 @ApiModel(value = "SysClient对象", description = "客户端表")
 public class SysClient extends BaseEntity {

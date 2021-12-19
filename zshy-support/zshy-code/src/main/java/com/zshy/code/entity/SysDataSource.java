@@ -18,7 +18,7 @@ import com.zshy.core.database.entity.BaseEntity;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-@TableName("ZSHY_sys_data_source")
+@TableName("tb_sys_data_source")
 public class SysDataSource extends BaseEntity {
 
     private static final long serialVersionUID=1L;

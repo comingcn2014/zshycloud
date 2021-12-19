@@ -10,14 +10,14 @@ spring:
     password: ${zshy.datasource.password}
 dubbo:
   scan:
-    base-packages: vip.zshy.system.feign
+    base-packages: com.zshy.system.feign
   protocols:
     dubbo:
       name: dubbo
       port: -1
   registries:
     new:
-      address: spring-cloud://localhost
+      address: spring-cloud://192.168.10.14
 #  registry:
 #   The Spring Cloud Dubbo's registry extension
 #    address: spring-cloud://localhost

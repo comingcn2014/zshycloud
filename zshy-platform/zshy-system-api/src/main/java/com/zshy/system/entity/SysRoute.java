@@ -30,7 +30,7 @@ import io.swagger.annotations.ApiModelProperty;
  * @since 2020-10-17
  */
 @Data
-@TableName("ZSHY_sys_route")
+@TableName("tb_sys_route")
 @EqualsAndHashCode(callSuper = true)
 @ApiModel(value = "SysRoute对象", description = "系统路由表")
 public class SysRoute extends BaseEntity {

@@ -5,6 +5,6 @@ spring:
     name: @artifactId@
   #数据源配置
   datasource:
-    url: ${mate.datasource.url}
-    username: ${mate.datasource.username}
-    password: ${mate.datasource.password}
+    url: ${zshy.datasource.url}
+    username: ${zshy.datasource.username}
+    password: ${zshy.datasource.password}

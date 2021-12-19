@@ -18,10 +18,10 @@
         SELECT
         *
         FROM
-        zshy_sys_menu
+        tb_sys_menu
         WHERE
         is_deleted = 0 and type != 2
-        and id IN ( SELECT menu_id FROM zshy_sys_role_permission WHERE role_id = #{param1})
+        and id IN ( SELECT menu_id FROM tb_sys_role_permission WHERE role_id = #{param1})
         order by sort
     </select>
 

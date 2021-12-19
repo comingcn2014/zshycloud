@@ -19,7 +19,7 @@ import com.zshy.core.database.entity.BaseEntity;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-@TableName("ZSHY_sys_depart")
+@TableName("tb_sys_depart")
 @ApiModel(value = "SysDepart对象", description = "组织机构表")
 public class SysDepart extends BaseEntity {
 

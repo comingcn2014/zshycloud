@@ -22,7 +22,7 @@ import java.io.Serializable;
  */
 @Data
 @Accessors(chain = true)
-@TableName("ZSHY_sys_role_permission")
+@TableName("tb_sys_role_permission")
 @ApiModel(value = "SysRolePermission对象", description = "角色权限表")
 public class SysRolePermission implements Serializable {
 

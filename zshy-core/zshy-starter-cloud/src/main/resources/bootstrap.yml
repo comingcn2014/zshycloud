@@ -10,7 +10,7 @@ spring:
         server-addr: @config.server-addr@
         group: @config.group@
         file-extension: yaml
-        prefix: mate
+        prefix: zshy
 #        shared-configs:
 #          - @artifactId@-@spring.active@.${spring.cloud.nacos.config.file-extension}
 #            refresh-enabled: true

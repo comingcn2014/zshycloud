@@ -19,7 +19,7 @@ import com.zshy.core.database.entity.BaseEntity;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
-@TableName("ZSHY_sys_role")
+@TableName("tb_sys_role")
 @ApiModel(value = "SysRole对象", description = "角色表")
 public class SysRole extends BaseEntity {
 

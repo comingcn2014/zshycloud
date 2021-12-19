@@ -18,7 +18,7 @@ import java.util.Set;
  */
 public class Test {
     public static void main(String[] args) {
-        String baseUrl = "http://192.168.10.14:20002/provider/user/username?userName=admin";
+        String baseUrl = "http://localhost:20002/provider/user/username?userName=admin";
         try {
             OkHttpClient client = new OkHttpClient();
             Map<String, Collection<String>>  headerMap = new HashMap<>();

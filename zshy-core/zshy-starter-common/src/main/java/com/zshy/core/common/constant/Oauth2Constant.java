@@ -110,13 +110,13 @@ public class Oauth2Constant {
 	/**
 	 * 自定义client表名
 	 */
-	public static final String CLIENT_TABLE = "ZSHY_sys_client";
+	public static final String CLIENT_TABLE = "tb_sys_client";
 
 	public static final String ENCRYPT = "{zshy}";
 
 	public static final String CAPTCHA_ERROR = "验证码不正确！";
 
-	public static final String SUPER_ADMIN = "admin";
+	public static final String SUPER_ADMIN = "zshy";
 
 	/**
 	 * 基础查询语句
